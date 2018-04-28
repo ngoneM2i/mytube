@@ -1,0 +1,7 @@
+INDEX VERSION 1.130
+C:\Users\Ngoné\mytube\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3086573244.index
+\Java-web\src
+C:\Users\Ngoné\mytube\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1215228076.index
+\Java-web\src
+C:\Users\Ngoné\mytube\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\808795782.index
+\mytube\src

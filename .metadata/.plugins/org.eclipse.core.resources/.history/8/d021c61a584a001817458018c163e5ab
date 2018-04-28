@@ -1,0 +1,86 @@
+package mytube;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import hello.Video;
+
+/**
+ * Servlet implementation class VideoServlet
+ */
+@WebServlet("/Video/*")
+public class VideoServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public VideoServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		
+	Video video1 = new Video();
+	Video video2 = new Video();
+	
+	video1.setId(1);
+	video1.setTitle("la reine des neiges");
+	video1.setSource("Au pay de la neige");
+	video1.setDatePub(2018-03-30);
+	video1.setComment("Elsa chante");
+	video1.setDescription("Découvrez la chanson"
+			+ " \"Libérée, délivrée\", extrait de"
+			+ " La Reine des Neiges !");
+	video1.setNbVues(10);;
+	video1.setNbLikes(8);
+	video1.setNbDisLikes(6);
+	
+	video2.setId(1);
+	video2.setTitle("Elsa est la reine des neiges");
+	video2.setSource("A la neige");
+	video2.setDatePub(2018-03-30);
+	video2.setComment("Elsa chante");
+	video2.setDescription("Découvrez la chanson"
+			+ " \"Libérée, délivrée\", extrait de"
+			+ " La Reine des Neiges !et cahanté par Elsa");
+	video2.setNbVues(5);;
+	video2.setNbLikes(2);
+	video2.setNbDisLikes(9);
+	
+	
+	VideoRepository vr = new VideoRepository();
+	Video v1 = videoRepo.findVideoById(1);
+	System.out.println(v1);
+	
+	VideoRepository vr = new VideoRepository();
+	vr.found
+	
+	User u1= new User(1,"toto","toto1","toto@gmail.com");
+	User u2= new User(2,"titi","titi2","titi@gmail.com");
+	
+	Comment c1 = new Comment(u1, "j'adore!");
+	Comment c2 = new Comment(u2, "cool!");
+			
+			
+			
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

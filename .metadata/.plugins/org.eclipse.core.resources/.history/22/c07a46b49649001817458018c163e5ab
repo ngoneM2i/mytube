@@ -1,0 +1,98 @@
+package com.aiconoa.mytube;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.aiconoa.mytube.Video;
+
+public class VideoRepository {
+		
+	private List<Video> videos;
+	
+	public VideoRepository(List<Video> videos) {
+		video1 = new Video();
+		video2 = new Video();
+		
+	}
+	
+	videos1.setId(1);
+	videos1.setTitle("la reine des neiges");
+	videos1.setSource("Au pay de la neige");
+	videos.setDatePub(2018-03-30);
+	videos.setComment("Elsa chante");
+	videos.setDescription("Découvrez la chanson"
+			+ " \"Libérée, délivrée\", extrait de"
+			+ " La Reine des Neiges !");
+	videos.setNbVues(10);;
+	videos.setNbLikes(8);
+	videos.setNbDisLikes(6);
+	
+	videos2.setId(1);
+	videos.setTitle("Elsa est la reine des neiges");
+	videos2.setSource("A la neige");
+	video2.setDatePub(2018-03-30);
+	video2.setComment("Elsa chante");
+	video2.setDescription("Découvrez la chanson"
+			+ " \"Libérée, délivrée\", extrait de"
+			+ " La Reine des Neiges !et cahanté par Elsa");
+	videos2.setNbVues(5);;
+	videos2.setNbLikes(2);
+	videos2.setNbDisLikes(9);
+	
+	
+	
+
+	public List<Video> getVideos() {
+		return videos;
+	}
+
+	public void setVideos(List<Video> videos) {
+		this.videos = videos;
+	}
+
+		
+	List<Video> findTrending() {
+
+     List<Video> trending = new ArrayList<>();
+     long nbVues;
+     int i;
+     for(i in : videos)
+        if(nbVues == 5)
+          return trending;
+	}
+
+	 List<Video> findRecommended() {
+
+      List<Video> recommended= new ArrayList<>();
+      long nbVues, nbLikes;
+      int i;
+      for(i in : videos)
+        if(nbVues == 5 && nbLikes == 3)
+          return trending;
+	
+	}
+	
+	Video findById(long id) {
+      
+	ArrayList<Video> videos = new ArrayList<>();
+     switch(id)
+     case 1:
+	     videos.add(new Video("peppa", "cool", 1,5));
+     case 2:
+		videos.add(new Video("bob", "da", 2,5));
+     
+     case 3:
+		videos.add(new Video("bob", "da", 2,10));
+
+     case 4:
+		videos.add(new Video("bob", "da", 2,10));
+     
+     case 4:
+		videos.add(new Video("bob", "da", 2,10));
+
+     defaul:
+           
+         sout("la video n'existe pas!);
+	}
+
+}

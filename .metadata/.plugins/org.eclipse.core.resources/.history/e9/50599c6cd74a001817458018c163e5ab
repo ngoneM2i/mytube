@@ -1,0 +1,47 @@
+package mytube;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class VideoRepository {
+		
+	private List<Video> videos;
+	
+	
+	public VideoRepository(List<Video> videos) {
+		 videos = new ArrayList<>();
+	}
+
+	public List<Video> getVideos() {
+		return videos;
+	}
+
+	Video v1 = new Video();
+	User u = new User();
+		
+	List<Video> findTrending() {
+     List<Video> trending = new ArrayList<>();
+     for (Video v : videos) {
+    	 if(v.getNbVues() == 5)
+    		 return trending;
+     }
+	}
+       
+
+	 List<Video> findRecommended() {
+		 List<Video> recommended = new ArrayList<>();
+	     for (Video v : videos) {
+	    	 if(v.getNbLikes()== 10)
+	    		return recommended;
+	     }
+	
+	}
+	
+	Video findById(long id) {
+      
+	ArrayList<Video> videos = new ArrayList<>();
+     
+	}
+
+}
+

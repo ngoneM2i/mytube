@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css"> 
+    <link rel="stylesheet" href="mytube.css">
+    <title>mytubeAccueil</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="titlebar">
+    
+                <div  ><a href="" class="title__item_1"><img src="img/subscrib.png" alt="" width="80px" ></a> </div >
+                <div ><a href=""  class="title__item_2"><img src="img/mytube.jpeg" alt="" width="80px"></a> </div >
+                <div  ><a href="" class="title__item_3"><input type="search" alt="" placeholder="tapez votre texte ici" width="80px"></input></a></div >
+                <div  ><a href="" class="title__item_4"><img src="img/search.png" alt="" width="50px"></a> </div >
+        </div>
+
+        <div class="genre">Recommanding</div>
+        
+
+        <div class="liste_video">
+
+            <div id="video4" class="videos__item">
+                <img src="img/img_12.webp" alt="" class="videos__item__img">
+                <h1 class="videos__item__title">neige.com</h1>
+                <p class="videos__item__tagline">Elsa chante</p>
+            </div>
+
+            <div id="video4" class="videos__item">
+                <img src="img/img_12.webp" alt="" class="videos__item__img">
+                <h1 class="videos__item__title">neige.com</h1>
+                <p class="videos__item__tagline">Elsa chante</p>
+            </div>
+
+
+            <div id="video4" class="videos__item">
+                <img src="img/img_12.webp" alt="" class="videos__item__img">
+                <h1 class="videos__item__title">neige.com</h1>
+                <p class="videos__item__tagline">Elsa chante</p>
+            </div>
+
+            <div id="video4" class="videos__item">
+                <img src="img/img_12.webp" alt="" class="videos__item__img">
+                <h1 class="videos__item__title">neige.com</h1>
+                <p class="videos__item__tagline">Elsa chante</p>
+            </div>
+
+            <div id="video4" class="videos__item">
+                <img src="img/img_12.webp" alt="" class="videos__item__img">
+                <h1 class="videos__item__title">neige.com</h1>
+                <p class="videos__item__tagline">Elsa chante</p>
+            </div>
+
+
+            <div id="video4" class="videos__item">
+                <img src="img/img_12.webp" alt="" class="videos__item__img">
+                <h1 class="videos__item__title">neige.com</h1>
+                <p class="videos__item__tagline">Elsa chante</p>
+            </div>
+
+
+
+        </div>
+
+
+         <div class="genre">Trending</div>
+
+        <div class="liste_video">
+
+            <div id="video4" class="videos__item">
+                <img src="img/img_12.webp" alt="" class="videos__item__img">
+                <h1 class="videos__item__title">neige.com</h1>
+                <p class="videos__item__tagline">Elsa chante</p>
+            </div>
+
+
+            <div id="video4" class="videos__item">
+                <img src="img/img_12.webp" alt="" class="videos__item__img">
+                <h1 class="videos__item__title">neige.com</h1>
+                <p class="videos__item__tagline">Elsa chante</p>
+            </div>
+
+
+            <div id="video4" class="videos__item">
+                <img src="img/img_12.webp" alt="" class="videos__item__img">
+                <h1 class="videos__item__title">neige.com</h1>
+                <p class="videos__item__tagline">Elsa chante</p>
+            </div>
+
+            <div id="video4" class="videos__item">
+                <img src="img/img_12.webp" alt="" class="videos__item__img">
+                <h1 class="videos__item__title">neige.com</h1>
+                <p class="videos__item__tagline">Elsa chante</p>
+            </div>
+
+            <div id="video4" class="videos__item">
+                <img src="img/img_12.webp" alt="" class="videos__item__img">
+                <h1 class="videos__item__title">neige.com</h1>
+                <p class="videos__item__tagline">Elsa chante</p>
+            </div>
+
+            <div id="video4" class="videos__item">
+                <img src="img/img_12.webp" alt="" class="videos__item__img">
+                <h1 class="videos__item__title">neige.com</h1>
+                <p class="videos__item__tagline">Elsa chante</p>
+            </div>
+
+            <div id="video4" class="videos__item">
+                <img src="img/img_12.webp" alt="" class="videos__item__img">
+                <h1 class="videos__item__title">neige.com</h1>
+                <p class="videos__item__tagline">Elsa chante</p>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

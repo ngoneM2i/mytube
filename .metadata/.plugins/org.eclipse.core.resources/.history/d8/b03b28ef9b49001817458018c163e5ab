@@ -1,0 +1,42 @@
+package com.aiconoa.mytube;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.aiconoa.mytube.Video;
+
+public class VideoRepository {
+		
+	private List<Video> videos;
+	
+	public VideoRepository(List<Video> videos) {
+		videos = new ArrayList<>();
+	}
+	public List<Video> getVideos() {
+		return videos;
+	}
+
+	public void setVideos(List<Video> videos) {
+		this.videos = videos;
+	}
+
+		
+	List<Video> findTrending() {
+    List<Video> trending = new ArrayList<>();
+    
+	}
+
+	 List<Video> findRecommended() {
+     List<Video> recommended= new ArrayList<>();
+      
+	
+	}
+	
+	Video findById(long id) {
+      
+	ArrayList<Video> videos = new ArrayList<>();
+    
+
+	}
+
+}

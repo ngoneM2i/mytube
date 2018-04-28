@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+C:\Users\Ngoné\mytube\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3854942981.index
+2977604282.index
+808795782.index
+638196025.index

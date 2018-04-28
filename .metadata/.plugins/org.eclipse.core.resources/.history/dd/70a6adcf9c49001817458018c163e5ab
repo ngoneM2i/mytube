@@ -1,0 +1,78 @@
+package com.aiconoa.mytube;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class VideoServlet
+ */
+@WebServlet("/Video/*")
+public class VideoServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public VideoServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		
+	video1 = new Video();
+	video2 = new Video();
+	
+	videos1.setId(1);
+	videos1.setTitle("la reine des neiges");
+	videos1.setSource("Au pay de la neige");
+	videos1.setDatePub(2018-03-30);
+	videos1.setComment("Elsa chante");
+	videos1.setDescription("Découvrez la chanson"
+			+ " \"Libérée, délivrée\", extrait de"
+			+ " La Reine des Neiges !");
+	videos1.setNbVues(10);;
+	videos1.setNbLikes(8);
+	videos1.setNbDisLikes(6);
+	
+	videos2.setId(1);
+	videos2.setTitle("Elsa est la reine des neiges");
+	videos2.setSource("A la neige");
+	video2.setDatePub(2018-03-30);
+	video2.setComment("Elsa chante");
+	video2.setDescription("Découvrez la chanson"
+			+ " \"Libérée, délivrée\", extrait de"
+			+ " La Reine des Neiges !et cahanté par Elsa");
+	videos2.setNbVues(5);;
+	videos2.setNbLikes(2);
+	videos2.setNbDisLikes(9);
+	
+	VideoRepository vr = new VideoRepository();
+	vr.add(video1);
+	vr.add(video2);
+	
+	User u1= new User(1,"toto","toto1","toto@gmail.com");
+	User u2= new User(2,"titi","titi2","titi@gmail.com");
+	
+			
+			
+			
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}
